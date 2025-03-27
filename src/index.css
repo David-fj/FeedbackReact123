@@ -3,8 +3,12 @@
 @theme {
   --color-very-dark-blue: #131518;
   --color-dark-blue: #262E38;
+  --color-light-gray: #969FAD;
+  --color-medium-gray: #7C8798;
 
   --font-overpass: "Overpass", "sans-serif";
+
+  --leading-1: 1.375rem;
 }
 
 @layer utilities {

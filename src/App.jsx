@@ -9,15 +9,15 @@ export function App() {
 
       <h1 className="text-2xl font-bold mb-2.5">How did we do?</h1>
 
-      <p>Please let us know how we did with your support request. All
+      <p className="text-sm text-light-gray leading-1 mb-6">Please let us know how we did with your support request. All
       feedback is apreciated to help us improve our offering!</p>
 
-      <div>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
+      <div className="flex justify-between">
+        <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-gray focus:bg-medium-gray focus:text-white">1</button>
+        <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-gray focus:bg-medium-gray focus:text-white">2</button>
+        <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-gray focus:bg-medium-gray focus:text-white">3</button>
+        <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-gray focus:bg-medium-gray focus:text-white">4</button>
+        <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-gray focus:bg-medium-gray focus:text-white">5</button>
       </div>
 
       <button>Submit</button>
