@@ -12,7 +12,7 @@ export function App() {
       <p className="text-sm text-light-gray leading-1 mb-6">Please let us know how we did with your support request. All
       feedback is apreciated to help us improve our offering!</p>
 
-      <div className="flex justify-between">
+      <div className="flex justify-between mb-6">
         <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-gray focus:bg-medium-gray focus:text-white">1</button>
         <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-gray focus:bg-medium-gray focus:text-white">2</button>
         <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-gray focus:bg-medium-gray focus:text-white">3</button>
@@ -20,7 +20,7 @@ export function App() {
         <button className="bg-dark-blue w-10.5 h-10.5 rounded-full text-sm text-medium-gray focus:bg-medium-gray focus:text-white">5</button>
       </div>
 
-      <button>Submit</button>
+      <button className="bg-orange w-full py-3 rounded-3xl uppercase font-bold tracking-1">Submit</button>
     </div>
   )
 }
