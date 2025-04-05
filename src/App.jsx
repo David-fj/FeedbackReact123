@@ -21,7 +21,7 @@ export function App() {
 
   return(
     submited === false ? ( 
-    <div className="bg-radial-gradient text-white rounded-2xl p-6 mx-w-103 font-overpass">
+    <div className="bg-radial-gradient text-white rounded-2xl p-6 max-w-103 font-overpass">
       <div className="bg-dark-blue w-fit p-4 rounded-full mb-4">
         <img src={iconStar} alt="icon star"/>
       </div>
@@ -42,15 +42,14 @@ export function App() {
       <button onClick={handleSubmit} className="bg-orange w-full py-3 rounded-3xl uppercase font-bold tracking-1 hover:bg-white hover:text-orange duration-400 cursor-pointer">Submit</button>
     </div>
     ) : (
-      <div className="bg-radial-gradient text-white rounded-2xl p-6 mx-w-103 font-overpass">
+      <div className="bg-radial-gradient text-white rounded-2xl p-6 max-w-103 font-overpass">
         <img className ="mx-auto mb-6" src={illustrationThankYou} alt="Ilustration Thank You" />
         
         <p className="bg-dark-blue text-orange w-fit mx-auto py-1.25 px-3 rounded-3xl mb-6">You selected {rateNote} out of 5 </p>
 
         <h1 className="text-2xl font-bold mb-2.5 text-center">Thank you</h1>
 
-        <p className="text-sm text-light-gray leading-1 text-center">We 
-        appreciate you taking the time to give a rating. If you ever 
+        <p className="text-sm text-light-gray leading-1 text-center">We appreciate you taking the time to give a rating. If you ever 
         need more support, don’t hesitate to get in touch!</p>
       </div>
     )
