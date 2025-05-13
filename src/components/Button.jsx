@@ -1,4 +1,4 @@
-function Button({ value })
+function Button({ value, setRateNote })
 {
     function handleChangeRateNote(value) {
     setRateNote(value)

@@ -4,11 +4,11 @@ import Button from "./Button.jsx"
 function Cardinicial({ setSubmited, rateNote, setRateNote})
 {
     function handleSubmit(){
-        if (rateNote !== 0){
+      if (rateNote !== 0){
         setSubmited(true)
         return
-    }
-        alert("Please, choose a rate button!")
+      }
+      alert("Please, choose a rate button!")
     }
 
     return (
